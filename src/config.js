@@ -1,11 +1,12 @@
-const baseUrl = 'http://api.leyou.com'
+const baseUrl = 'http://gateway.leyou.com'
 const config = {
   locale: 'zh-CN', // en-US, zh-CN
   url: baseUrl,
   debug: {
     http: false // http request log
   },
-  api: `${baseUrl}/api`,
+  // 网关前缀
+  api: `${baseUrl}/gateway`,
   theme:{
     primary: "#2196F3",
     secondary: "#455A64",
